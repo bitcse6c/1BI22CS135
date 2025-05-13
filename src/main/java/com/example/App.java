@@ -15,11 +15,11 @@ public class App
         driver.findElement(By.id("identifierId")).sendKeys("devopsdemoruchita@gmail.com");
         driver.findElement(By.id("identifierNext")).click();
 
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
-        driver.findElement(By.cssSelector("passwd")).sendKeys("devdemruc12$");
-        driver.findElement(By.id("passwordNext")).click();
+        //driver.findElement(By.cssSelector("passwd")).sendKeys("devdemruc12$");
+        //driver.findElement(By.id("passwordNext")).click();
         
-        driver.quit();
+        //driver.quit();
     }
 }
